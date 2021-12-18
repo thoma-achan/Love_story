@@ -18,7 +18,7 @@
 
 ## Circuit Diagram
 
-![1634898879183](https://ibb.co/F3SWhxT)
+![1634898879183](https://i.ibb.co/B3XPfzM/IMG-20211216-160904.jpg)
 
 ![5h7X9_3102_1627394356](https://user-images.githubusercontent.com/91405741/137279765-8a82a34f-1dc0-4afc-9bd3-a31d7f62c428.png)
 
@@ -65,7 +65,7 @@ allowfullscreen></iframe>
 
 ## Circuit Diagram
 
-![1634898905963](https://ibb.co/58JZGs1)
+![1634898905963](https://i.ibb.co/SnZS5V6/IMG-20211216-161352.jpg)
 
 ![yiU1x_3102_1627566759](https://user-images.githubusercontent.com/91405741/137288387-e85f8db9-ae97-49d0-888d-a2fc15e4c496.png)
 
@@ -125,7 +125,7 @@ allowfullscreen></iframe>
 
 ## Circuit Diagram
 
-![1634898830010](https://ibb.co/K7DdHpH)
+![1634898830010](https://i.ibb.co/gwdNCLC/IMG-20211216-161911.jpg)
 
 ![s5yR0_3102_1627567167](https://user-images.githubusercontent.com/91405741/137292096-feb60c91-1a9a-474b-a596-300285f7b011.png)
 
