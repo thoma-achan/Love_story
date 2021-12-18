@@ -45,11 +45,7 @@ delay(1000); // wait for a second
 
 > The LED is blinked with a time interval od 1 second
 
-<iframe width="560" height="315"
-src="https://user-images.githubusercontent.com/91405741/137283496-04e4fe43-bc6a-4ca5-a6e0-0f7ecdcd56c5.mp4"
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+
 
 # Experiment 2 : Traffic Light
 
@@ -106,11 +102,6 @@ digitalWrite(redled, LOW);// turn off red LED
 
 > In Traffic light the green LED blink about 5 second, then it is turnoff. Then the yellow LED blinks 3 times with a time interval of 0.5 second.Then the red LED blink about 5 seconds. This process continues.
 
-<iframe width="560" height="315"
-src="https://user-images.githubusercontent.com/91405741/137290512-e479c4b3-1810-4b72-966f-42348620b1f4.mp4"
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
 
 # Experiment 3 : LED Chasing Effect
 
@@ -160,8 +151,4 @@ void loop()
 
 ## Output
 
-<iframe width="560" height="315"
-src="https://user-images.githubusercontent.com/91405741/137293394-f7b99c4d-4659-44fc-87ca-d331f3b6ebaf.mp4"
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+The light blinks one after the other and shut down one by one
