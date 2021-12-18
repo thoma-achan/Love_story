@@ -151,4 +151,4 @@ void loop()
 
 ## Output
 
-The light blinks one after the other and shut down one by one
+> The light blinks one after the other and shut down one by one
