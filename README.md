@@ -152,3 +152,52 @@ void loop()
 ## Output
 
 > The light blinks one after the other and shut down one by one
+> 
+
+# Experiment 4: Button Controlled LED
+
+> An experiment to light an LED using a Push Button.
+
+## Components Required 
+
+* Arduino Uno
+* Button switch*1
+* Red M5 LED*1
+* 220ΩResistor*1
+* 10KΩ Resistor*1
+* Breadboard*1
+* Breadboard Jumper Wire*6
+* USB cable*1
+
+## Circuit Diagrams
+
+![1634898715966](https://i.ibb.co/Tc1XLz8/Whats-App-Image-2021-12-19-at-12-46-28-PM.jpg)
+![Ztk6E_3102_1628160172](https://user-images.githubusercontent.com/91405741/137344162-7149dfcf-836c-43ec-a01c-177d48958d12.png)
+
+![wQGca_3102_1628160139](https://user-images.githubusercontent.com/91405741/137344321-3e662dee-cb00-421d-a34d-848c2ffd1a6f.png)
+
+## Code
+
+```
+
+int ledpin=11;// initialize pin 11
+int inpin=7;// initialize pin 7
+int val;// define val
+void setup()
+{
+pinMode(ledpin,OUTPUT);// set LED pin as “output”
+pinMode(inpin,INPUT);// set button pin as “input”
+}
+void loop()
+{
+val=digitalRead(inpin);// read the level value of pin 7 and assign if to val
+if(val==LOW)// check if the button is pressed, if yes, turn on the LED
+{ digitalWrite(ledpin,LOW);}
+else
+{ digitalWrite(ledpin,HIGH);}
+}
+
+```
+## Output
+
+> When the push button is pressed the LED is turned on otherwise it is off.
