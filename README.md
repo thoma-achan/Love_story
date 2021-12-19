@@ -256,7 +256,6 @@ digitalWrite(buzzer, HIGH); // produce sound
 
 ![xX9cw_3102_1628160649](https://user-images.githubusercontent.com/91405741/137347719-6966c0b1-021d-471c-b0a7-48d0441752d0.png)
 
-![A8a40_3102_1628160631](https://user-images.githubusercontent.com/91405741/137347782-e0a8a008-8706-4b7c-ba31-38ef0ab6ca72.png)
 
 ## Code
 
