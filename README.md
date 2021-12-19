@@ -199,3 +199,105 @@ else
 ## Output
 
 > When the push button is pressed the LED is turned on otherwise it is off.
+
+# Experiment 5 : Buzzer
+
+> An experiment to understand the working of a buzzer.
+
+## Components Required
+
+* Arduino Uno
+* Buzzer*1
+* Breadboard*1
+* Breadboard Jumper Wire*2
+* USB cable*1
+
+![BBr05_3102_1628160460](https://user-images.githubusercontent.com/91405741/137346830-1fa2408c-2a1d-4fdf-a049-5736aeb803ec.png)
+
+![e9Pdc_3102_1628160446](https://i.ibb.co/nk3XFhH/Whats-App-Image-2021-12-19-at-3-22-02-PM.jpg)
+
+## Code
+
+```
+
+int buzzer=8;// initialize digital IO pin that controls the buzzer
+void setup() 
+{ 
+  pinMode(buzzer,OUTPUT);// set pin mode as “output”
+} 
+void loop() 
+{
+digitalWrite(buzzer, HIGH); // produce sound
+}
+
+```
+
+## Output
+
+> The Buzzer makes beep sound.
+
+
+
+# Experiment 6 : RGB LED
+
+> An experiment to understand the working of a RGB LED.
+
+## Components Required
+
+* Arduino Uno
+* USB Cable * 1
+* RGB LED * 1
+* Resistor *3
+* Breadboard jumper wire*5
+
+## Circuit Diagrams
+
+![1634898744599](https://i.ibb.co/nk3XFhH/Whats-App-Image-2021-12-19-at-3-22-02-PM.jpg)
+
+![xX9cw_3102_1628160649](https://user-images.githubusercontent.com/91405741/137347719-6966c0b1-021d-471c-b0a7-48d0441752d0.png)
+
+![A8a40_3102_1628160631](https://user-images.githubusercontent.com/91405741/137347782-e0a8a008-8706-4b7c-ba31-38ef0ab6ca72.png)
+
+![TefdI_3102_1628167200](https://user-images.githubusercontent.com/91405741/137347822-228ccf9c-3a89-45ba-bb24-c3b0ee587818.png)
+
+## Code
+
+```
+
+int redpin = 11; //select the pin for the red LED
+int bluepin =10; // select the pin for the blue LED
+int greenpin =9;// select the pin for the green LED
+int val;
+void setup() {
+  pinMode(redpin, OUTPUT);
+  pinMode(bluepin, OUTPUT);
+  pinMode(greenpin, OUTPUT);
+  Serial.begin(9600);
+}
+void loop() 
+{
+for(val=255; val>0; val--)
+  {
+   analogWrite(11, val);
+   analogWrite(10, 255-val);
+   analogWrite(9, 128-val);
+   delay(1); 
+  }
+for(val=0; val<255; val++)
+  {
+   analogWrite(11, val);
+   analogWrite(10, 255-val);
+   analogWrite(9, 128-val);
+   delay(1); 
+  }
+ Serial.println(val, DEC);
+}
+
+```
+
+## Output
+
+> The RGB LED blinks.
+
+
+
