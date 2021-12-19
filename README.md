@@ -174,8 +174,6 @@ void loop()
 ![1634898715966](https://i.ibb.co/Tc1XLz8/Whats-App-Image-2021-12-19-at-12-46-28-PM.jpg)
 ![Ztk6E_3102_1628160172](https://user-images.githubusercontent.com/91405741/137344162-7149dfcf-836c-43ec-a01c-177d48958d12.png)
 
-![wQGca_3102_1628160139](https://user-images.githubusercontent.com/91405741/137344321-3e662dee-cb00-421d-a34d-848c2ffd1a6f.png)
-
 ## Code
 
 ```
